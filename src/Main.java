@@ -201,7 +201,7 @@ public class Main {
                 if (!a.getDiagnosed()) throw new RuntimeException(a.getTypeOfTransport()+" "+a.getBrand()+" "+a.getModel()+" не прошел диагностику");
             }
         } catch (CantGetDiagnosed e) {
-            System.out.println(e.getTransport()+" в диагностике не требуется");
+            System.out.println(e.getTransport()+" в диагностике не требуется.");
         }
     }
 }
